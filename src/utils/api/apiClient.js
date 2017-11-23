@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-import config from '../../constants/config';
+import config from '../../config';
 
 const METHODS = ['get', 'post', 'put', 'patch', 'delete'];
 
@@ -25,6 +25,11 @@ class apiClient {
         if (credentials) adjustedInfo.withCredentials = credentials;
         if (Object.keys(auth)) adjustedInfo.auth = auth;
 
+        /**
+         *
+         *  return a promise for further chaining in saga or actions or whatever you make an api call
+         *
+         */
         return axios(adjustedInfo);
       });
   }
