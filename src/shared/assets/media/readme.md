@@ -1,0 +1,1 @@
+use this folder for storing sounds which are used in your application

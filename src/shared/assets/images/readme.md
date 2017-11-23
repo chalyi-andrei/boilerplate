@@ -1,0 +1,1 @@
+use this folder for storing images which are used many times through out your application

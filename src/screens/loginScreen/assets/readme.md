@@ -1,0 +1,1 @@
+Use this folder only to store images, fonts if they are unique for this screen

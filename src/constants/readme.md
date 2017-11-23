@@ -1,0 +1,1 @@
+use this folder for storing constants which are used in your project
